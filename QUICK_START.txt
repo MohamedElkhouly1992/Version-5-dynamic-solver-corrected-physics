@@ -1,0 +1,14 @@
+HVAC v3 Sensitivity Studio — Quick Start
+
+1. Copy sensitivity_adapter_template.py into the latest HVAC v3 project.
+2. Rename it sensitivity_adapter.py.
+3. Edit the import and sensitivity_adapter_run() so it calls the actual numerical engine.
+4. Zip the whole HVAC v3 project, including sensitivity_adapter.py and all required modules/files.
+5. Run this app:
+      python -m pip install -r requirements.txt
+      python -m streamlit run sensitivity_studio_app.py
+6. Select "Upload HVAC v3 project ZIP" and upload the project.
+7. Run Connectivity first, then OAT, Morris, Sobol, Monte Carlo, and Ablation.
+8. Download every result separately from its tab or download all results from Export Center.
+
+This package does not use ChillerPlant.csv.

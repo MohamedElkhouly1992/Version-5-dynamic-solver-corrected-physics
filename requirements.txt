@@ -1,0 +1,14 @@
+streamlit==1.61.1
+numpy>=2.0,<3
+pandas>=2.2,<4
+scipy>=1.15,<2
+matplotlib>=3.10,<4
+plotly>=6.0,<7
+scikit-learn==1.9.0
+SALib==1.5.2
+joblib>=1.4,<2
+openpyxl>=3.1,<4
+xlsxwriter>=3.2,<4
+networkx>=3.4,<4
+shap>=0.48,<1
+pyarrow==24.0.0
